@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETFramework,Version=v4.7.2": {
+      "Microsoft.ServiceFabric": {
+        "type": "Direct",
+        "requested": "[8.2.1235, )",
+        "resolved": "8.2.1235",
+        "contentHash": "iyp5jdFLLsSVAnrZuzjW5Og+cjWLW6t+M1J3mMgDlQaEcByw0qv6tsw4VlROCaBARPvfx6lwB3GjZRvIzNBxng==",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        }
+      },
+      "Microsoft.ServiceFabric.Data": {
+        "type": "Direct",
+        "requested": "[5.2.1235, )",
+        "resolved": "5.2.1235",
+        "contentHash": "4TSyZj9fTjz3h/GVcOdr28KGeD3NbC+g5g2eWIrQ3MAMrsywUClKDI3PY5uWxrElk/Vnoz0H9MBNQjh8mkiFFQ==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]",
+          "Microsoft.ServiceFabric.Data.Extensions": "[5.2.1235]",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Services": {
+        "type": "Direct",
+        "requested": "[5.2.1235, )",
+        "resolved": "5.2.1235",
+        "contentHash": "qESq6yYofBWaxGLVCZFdv1AH++ZiHfidlifJys+XmNM/r7CHS0ZbLkDnFqapbTyePeTltYTNaD6lTP2MR7y+lw==",
+        "dependencies": {
+          "Microsoft.ServiceFabric.Data": "[5.2.1235]",
+          "Microsoft.ServiceFabric.Diagnostics.Internal": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Extensions": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "bQZu3d/lS/fxLeYl02TA545nU/fpZ28BjSSmJzaOqLE7ajbI1Uwvq9Qv1tJYDZYp9EOjG2H3aKqFQlkiaX/roQ==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "8.2.1235",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Interfaces": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "yhsUk79oCNSzy31vg/FFhqijtKT+G4//VhunmhsYdLhY0pmPyZQzNKLYDC9QM3xZsWYGA/nO99nTaFY5/QlT6A==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Diagnostics.Internal": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "9ZQt7Ur50Pd5OyixZu7HkI1nSF7mrJqnxlSvimCRG+l1Wnx1D41xsssl1fjQGZyb8/SgVSFP1gHarxHm2WWVWw==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]"
+        }
+      },
+      "System.Buffers": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw=="
+      },
+      "System.Memory": {
+        "type": "Transitive",
+        "resolved": "4.5.3",
+        "contentHash": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        }
+      },
+      "System.Numerics.Vectors": {
+        "type": "Transitive",
+        "resolved": "4.4.0",
+        "contentHash": "UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ=="
+      },
+      "System.Runtime.CompilerServices.Unsafe": {
+        "type": "Transitive",
+        "resolved": "4.5.2",
+        "contentHash": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ=="
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Microsoft.ServiceFabric": {
+        "type": "Direct",
+        "requested": "[8.2.1235, )",
+        "resolved": "8.2.1235",
+        "contentHash": "iyp5jdFLLsSVAnrZuzjW5Og+cjWLW6t+M1J3mMgDlQaEcByw0qv6tsw4VlROCaBARPvfx6lwB3GjZRvIzNBxng==",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        }
+      },
+      "Microsoft.ServiceFabric.Data": {
+        "type": "Direct",
+        "requested": "[5.2.1235, )",
+        "resolved": "5.2.1235",
+        "contentHash": "4TSyZj9fTjz3h/GVcOdr28KGeD3NbC+g5g2eWIrQ3MAMrsywUClKDI3PY5uWxrElk/Vnoz0H9MBNQjh8mkiFFQ==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]",
+          "Microsoft.ServiceFabric.Data.Extensions": "[5.2.1235]",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Services": {
+        "type": "Direct",
+        "requested": "[5.2.1235, )",
+        "resolved": "5.2.1235",
+        "contentHash": "qESq6yYofBWaxGLVCZFdv1AH++ZiHfidlifJys+XmNM/r7CHS0ZbLkDnFqapbTyePeTltYTNaD6lTP2MR7y+lw==",
+        "dependencies": {
+          "Microsoft.ServiceFabric.Data": "[5.2.1235]",
+          "Microsoft.ServiceFabric.Diagnostics.Internal": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Extensions": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "bQZu3d/lS/fxLeYl02TA545nU/fpZ28BjSSmJzaOqLE7ajbI1Uwvq9Qv1tJYDZYp9EOjG2H3aKqFQlkiaX/roQ==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "8.2.1235",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Interfaces": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "yhsUk79oCNSzy31vg/FFhqijtKT+G4//VhunmhsYdLhY0pmPyZQzNKLYDC9QM3xZsWYGA/nO99nTaFY5/QlT6A==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Diagnostics.Internal": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "9ZQt7Ur50Pd5OyixZu7HkI1nSF7mrJqnxlSvimCRG+l1Wnx1D41xsssl1fjQGZyb8/SgVSFP1gHarxHm2WWVWw==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]"
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Microsoft.ServiceFabric": {
+        "type": "Direct",
+        "requested": "[8.2.1235, )",
+        "resolved": "8.2.1235",
+        "contentHash": "iyp5jdFLLsSVAnrZuzjW5Og+cjWLW6t+M1J3mMgDlQaEcByw0qv6tsw4VlROCaBARPvfx6lwB3GjZRvIzNBxng==",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        }
+      },
+      "Microsoft.ServiceFabric.Data": {
+        "type": "Direct",
+        "requested": "[5.2.1235, )",
+        "resolved": "5.2.1235",
+        "contentHash": "4TSyZj9fTjz3h/GVcOdr28KGeD3NbC+g5g2eWIrQ3MAMrsywUClKDI3PY5uWxrElk/Vnoz0H9MBNQjh8mkiFFQ==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]",
+          "Microsoft.ServiceFabric.Data.Extensions": "[5.2.1235]",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Services": {
+        "type": "Direct",
+        "requested": "[5.2.1235, )",
+        "resolved": "5.2.1235",
+        "contentHash": "qESq6yYofBWaxGLVCZFdv1AH++ZiHfidlifJys+XmNM/r7CHS0ZbLkDnFqapbTyePeTltYTNaD6lTP2MR7y+lw==",
+        "dependencies": {
+          "Microsoft.ServiceFabric.Data": "[5.2.1235]",
+          "Microsoft.ServiceFabric.Diagnostics.Internal": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Extensions": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "bQZu3d/lS/fxLeYl02TA545nU/fpZ28BjSSmJzaOqLE7ajbI1Uwvq9Qv1tJYDZYp9EOjG2H3aKqFQlkiaX/roQ==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "8.2.1235",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Interfaces": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "yhsUk79oCNSzy31vg/FFhqijtKT+G4//VhunmhsYdLhY0pmPyZQzNKLYDC9QM3xZsWYGA/nO99nTaFY5/QlT6A==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Diagnostics.Internal": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "9ZQt7Ur50Pd5OyixZu7HkI1nSF7mrJqnxlSvimCRG+l1Wnx1D41xsssl1fjQGZyb8/SgVSFP1gHarxHm2WWVWw==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]"
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Microsoft.ServiceFabric": {
+        "type": "Direct",
+        "requested": "[8.2.1235, )",
+        "resolved": "8.2.1235",
+        "contentHash": "iyp5jdFLLsSVAnrZuzjW5Og+cjWLW6t+M1J3mMgDlQaEcByw0qv6tsw4VlROCaBARPvfx6lwB3GjZRvIzNBxng==",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        }
+      },
+      "Microsoft.ServiceFabric.Data": {
+        "type": "Direct",
+        "requested": "[5.2.1235, )",
+        "resolved": "5.2.1235",
+        "contentHash": "4TSyZj9fTjz3h/GVcOdr28KGeD3NbC+g5g2eWIrQ3MAMrsywUClKDI3PY5uWxrElk/Vnoz0H9MBNQjh8mkiFFQ==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]",
+          "Microsoft.ServiceFabric.Data.Extensions": "[5.2.1235]",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Services": {
+        "type": "Direct",
+        "requested": "[5.2.1235, )",
+        "resolved": "5.2.1235",
+        "contentHash": "qESq6yYofBWaxGLVCZFdv1AH++ZiHfidlifJys+XmNM/r7CHS0ZbLkDnFqapbTyePeTltYTNaD6lTP2MR7y+lw==",
+        "dependencies": {
+          "Microsoft.ServiceFabric.Data": "[5.2.1235]",
+          "Microsoft.ServiceFabric.Diagnostics.Internal": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Extensions": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "bQZu3d/lS/fxLeYl02TA545nU/fpZ28BjSSmJzaOqLE7ajbI1Uwvq9Qv1tJYDZYp9EOjG2H3aKqFQlkiaX/roQ==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "8.2.1235",
+          "Microsoft.ServiceFabric.Data.Interfaces": "[5.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Data.Interfaces": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "yhsUk79oCNSzy31vg/FFhqijtKT+G4//VhunmhsYdLhY0pmPyZQzNKLYDC9QM3xZsWYGA/nO99nTaFY5/QlT6A==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]"
+        }
+      },
+      "Microsoft.ServiceFabric.Diagnostics.Internal": {
+        "type": "Transitive",
+        "resolved": "5.2.1235",
+        "contentHash": "9ZQt7Ur50Pd5OyixZu7HkI1nSF7mrJqnxlSvimCRG+l1Wnx1D41xsssl1fjQGZyb8/SgVSFP1gHarxHm2WWVWw==",
+        "dependencies": {
+          "Microsoft.ServiceFabric": "[8.2.1235]"
+        }
+      }
+    }
+  }
+}

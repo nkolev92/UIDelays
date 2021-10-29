@@ -33,8 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.7.10\lib\net45\NLog.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +56,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="packages.lock.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CPlusPlusProject\CPlusPlusProject.vcxproj">
+      <Project>{d8333143-2030-427f-b988-7447869a773b}</Project>
+      <Name>CPlusPlusProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LegacyMSBuildProject\LegacyMSBuildProject.msbuildproj">
+      <Project>{027d3e47-48dc-48a3-a44a-0b6ff458f040}</Project>
+      <Name>LegacyMSBuildProject</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\CPlusPlusProject\CPlusPlusProject.vcxproj">
+      <Project>{d8333143-2030-427f-b988-7447869a773b}</Project>
+      <Name>ServiceFabricApplication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stateless1\Stateless1.csproj">
+      <Project>{b040d570-f2f0-4080-a396-df6b56cec429}</Project>
+      <Name>Stateless1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

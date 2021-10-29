@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "dependencies": {
+    "Unsupported,Version=v0.0": {
+      "Microsoft.VisualStudio.Azure.Fabric.MSBuild": {
+        "type": "Direct",
+        "requested": "[1.7.6, 1.7.6]",
+        "resolved": "1.7.6",
+        "contentHash": "7qwjz33uLPKDdCXhLY9zAGSC57ub3igaQvNdoiZItQiXQsjemnCR7LQU/TX2JyzeTFfL6DU3aUnMJEg9skChjg=="
+      }
+    }
+  }
+}

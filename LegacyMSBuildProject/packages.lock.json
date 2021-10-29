@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETFramework,Version=v4.7.2": {
+      "NLog": {
+        "type": "Direct",
+        "requested": "[4.7.10, 4.7.10]",
+        "resolved": "4.7.10",
+        "contentHash": "rcegW7kYOCjl7wX0SzsqpPBqnJ51JKi1WkYb6QBVX0Wc5IgH19Pv4t/co+T0s06OS0Ne44xgkY/mHg0PdrmJow=="
+      }
+    }
+  }
+}
